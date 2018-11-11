@@ -1,0 +1,33 @@
+body{
+	background: url("../images/background.png");
+	margin-bottom: 60px;
+}
+
+.Pokeball{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    animation-name: ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.Pokeball img{
+	width: 75%;
+	height: 75%;
+}
+#my-jumbotron{
+	margin: 0px;
+	padding: 15px 0px;
+}
+
+@keyframes ani {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 80px);
+  }
+  100% {
+    left: 0;
+  }
+}
