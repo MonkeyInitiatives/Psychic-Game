@@ -17,7 +17,12 @@ body{
 }
 #my-jumbotron{
 	margin: 0px;
-	padding: 15px 0px;
+  padding: 15px 0px;
+  color: black;
+  text-shadow: 2px 2px 5px red;
+  background: white;
+  border: 5px;
+  border-color: black;
 }
 
 @keyframes ani {
