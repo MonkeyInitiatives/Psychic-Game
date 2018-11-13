@@ -1,5 +1,5 @@
 body{
-	background: url("../images/background.png");
+  background: url("../images/background.png");
   margin-bottom: 60px;
   height: 100%;
 }
@@ -12,14 +12,14 @@ html{
 }
 
 .Pokeball{
-    width: 80px;
-    height: 80px;
-    padding: 0px;
-    margin: 0px;
-    position: relative;
-    animation-name: ani;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+  width: 80px;
+  height: 80px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  animation-name: ani;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 .Pokeball img{
 	width: 75%;
@@ -43,7 +43,6 @@ html{
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -54,19 +53,16 @@ html{
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: red;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
 .active {
   background-color: red;
   color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 } 
@@ -90,13 +86,14 @@ html{
     float: none;
     display: block;
     text-align: left;
-  }
+  } 
 }
-.footer,
-.push {
+
+.footer, .push {
   height: 50px;
   text-align: center;
 }
+
 #myFooter a{
   float: none;
 }
