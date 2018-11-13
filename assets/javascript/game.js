@@ -1,8 +1,34 @@
+function showGameModes() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
 var wins = 0;
 var guessesRemaining = 10;
 var lettersGuessed = "";
 var currentPokemon;
 var emptyArray = [];
+var easyGame = true;
+
+function easyMode(){
+	easyGame = true;
+	document.getElementById("easyGame").style.backgroundColor = "red";
+	document.getElementById("hardGame").style.backgroundColor = "black";
+}
+function hardMode(){
+	easyGame = false;
+	document.getElementById("hardGame").style.backgroundColor = "red";
+	document.getElementById("easyGame").style.backgroundColor = "black";
+}
+function resetGame(){
+	wins =0;
+	startGame();
+	document.getElementById("previous-pokemon").style.display = "none";
+}
 
 //create generic pokemon object
 function genericPokemon(name, description){
@@ -43,7 +69,14 @@ function updateHTMLText(){
 function startGame(){
 	var randomNumber = Math.floor(Math.random() * pokemonArray.length);
 	currentPokemon = pokemonArray[randomNumber];
-	document.getElementById("pokemon-image-current").src=currentPokemon.silhouette;
+	if(easyGame===true){
+		console.log("Game Easy");
+		document.getElementById("pokemon-image-current").src=currentPokemon.silhouette;
+	}
+	else{
+		console.log("Game Hard");
+		document.getElementById("pokemon-image-current").src="assets/images/unknown.jpg";
+	}
 	guessesRemaining = 10;
 	lettersGuessed = "";
 	
