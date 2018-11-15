@@ -54,7 +54,18 @@ var magmar = new genericPokemon("magmar", "In battle, Magmar blows out intensely
 var jigglypuff = new genericPokemon("jigglypuff", "Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.");
 var chansey = new genericPokemon("chansey", "Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite.");
 
-var pokemonArray = [pikachu, charmander, squirtle, bulbasaur, exeggutor, rapidash, mewtwo, alakazam, gengar, dragonite, eevee, ditto, magmar, jigglypuff, chansey];
+var charizard = new genericPokemon("charizard", "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.");
+var blastoise = new genericPokemon("blastoise", "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.");
+var gyarados = new genericPokemon("gyarados", "When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon's wildly violent nature.");
+var scyther = new genericPokemon("scyther", "Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon's scythes are so effective, they can slice through thick logs in one wicked stroke.");
+var snorlax = new genericPokemon("snorlax", "Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its expansive belly as a place to play.");
+var starmie = new genericPokemon("starmie", "Starmie's center section—the core—glows brightly in seven colors. Because of its luminous nature, this Pokémon has been given the nickname 'the gem of the sea.'");
+var aerodactyl = new genericPokemon("aerodactyl", "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.");
+var porygon = new genericPokemon("porygon", "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy protected so it cannot be duplicated by copying.");
+var rhydon = new genericPokemon("rhydon", "Rhydon's horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. This Pokémon's hide is extremely tough. Even direct cannon hits don't leave a scratch.");
+var marowak = new genericPokemon("marowak", "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon's tempered and hardened spirit is not easily broken.");
+
+var pokemonArray = [pikachu, charmander, squirtle, bulbasaur, exeggutor, rapidash, mewtwo, alakazam, gengar, dragonite, eevee, ditto, magmar, jigglypuff, chansey, charizard, blastoise, gyarados, scyther, snorlax, starmie, aerodactyl, porygon, rhydon, marowak];
 
 var music = new Audio("assets/audio/pokemon.mp3");
 
