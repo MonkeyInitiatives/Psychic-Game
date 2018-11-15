@@ -18,11 +18,13 @@ function easyMode(){
 	easyGame = true;
 	document.getElementById("easyGame").style.backgroundColor = "red";
 	document.getElementById("hardGame").style.backgroundColor = "black";
+	startGame();
 }
 function hardMode(){
 	easyGame = false;
 	document.getElementById("hardGame").style.backgroundColor = "red";
 	document.getElementById("easyGame").style.backgroundColor = "black";
+	startGame();
 }
 function resetGame(){
 	wins =0;
